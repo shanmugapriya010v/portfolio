@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f8fafc;
+    color: #1f2937;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #f5d76e, #ffffff);
+    color: #1f2937;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 3px solid #d4af37;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 44px;
+    color: #b8860b;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #374151;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 26px;
+    background: #d4af37;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #b8860b;
+}
+
+/* NAV */
+nav {
+    background: white;
+    text-align: center;
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+nav a {
+    color: #1f2937;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #b8860b;
+    margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #fff8e1;
+    color: #b8860b;
+    padding: 10px 16px;
+    margin: 6px;
+    border-radius: 20px;
+    border: 1px solid #f5d76e;
+    font-size: 14px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    width: 70%;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #d4af37;
+}
+
+/* PROJECT TITLE */
+.card h3 {
+    color: #b8860b;
+    font-size: 18px;
+}
+
+/* TEXT */
+.card p {
+    color: #4b5563;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background: #ffffff;
+    color: #b8860b;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #e5e7eb;
+}
